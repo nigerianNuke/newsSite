@@ -1,5 +1,5 @@
 <?php
-session_destroy();
+//session_destroy();
 $mysqli = new mysqli('localhost', 'newsAdmin', 'newssite', 'newsSite');
 if($mysqli->connect_errno) {
   printf("Connection Failed: %s\n", $mysqli->connect_error);
